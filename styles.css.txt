@@ -1,22 +1,52 @@
- body {
-     font-family: Arial, sans-serif;
-     margin: 20px;
- }
- h1, h2 {
-     color: #333;
- }
- ul {
-     list-style-type: none;
-     padding: 0;
- }
- li {
-     margin: 5px 0;
- }
- a {
-     text-decoration: none;
-     color: #007BFF;
- }
- a:hover {
-     text-decoration: underline;
- }
- ```
+/* Estilos globais */
+body {
+    background-image: url('Logo_3.png'); /* Caminho para a sua imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área do fundo */
+    background-repeat: no-repeat; /* A imagem não se repete */
+    background-attachment: fixed; /* A imagem fica fixa durante a rolagem */
+    height: 100vh; /* Altura de 100% da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Cor do texto */
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para os parágrafos */
+p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Estilos para os subtítulos */
+h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem;
+}
+
+/* Estilos para as listas */
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #f0f0f0; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
