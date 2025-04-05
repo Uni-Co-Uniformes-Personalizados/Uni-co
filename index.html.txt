@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-image: url('Logo_1.jpg');
+            background-image: url('Logo_3.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
