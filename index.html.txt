@@ -4,21 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Contatos</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            background-image: url('Logo_3.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Referência ao arquivo CSS -->
 </head>
 <body>
     <h1>Meus Contatos</h1>
     <p>Nome: Anna Carolina</p>
     <p>Email: seuemail@exemplo.com</p>
-    <p>Telefone: (00) 00000-0000</p>
+    <p>Telefone: (21) 98147-3206</p>
     <h2>Redes Sociais</h2>
     <ul>
         <li><a href="https://www.facebook.com/seuperfil">Facebook</a></li>
