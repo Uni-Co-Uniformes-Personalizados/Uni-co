@@ -12,6 +12,11 @@ body {
     align-items: center;
     justify-content: center;
     color: white; /* Cor do texto */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Fontes */
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    color: #24292e; /* Cor do texto */
+    background-color: #fff; /* Cor de fundo */
 }
 
 /* Estilos para o cabeçalho */
