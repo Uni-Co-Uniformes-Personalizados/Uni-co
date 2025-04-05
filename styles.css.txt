@@ -1,5 +1,6 @@
+/* styles.css */
 body {
-    background-image: url('images/Logo_3.png');
+    background-image: url('imagens/Logo_3.png'); /* Caminho relativo à localização do arquivo CSS */
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-repeat: no-repeat; /* Não repete a imagem */
     background-position: center; /* Centraliza a imagem */
