@@ -1,22 +1,7 @@
- body {
-     font-family: Arial, sans-serif;
-     margin: 20px;
- }
- h1, h2 {
-     color: #333;
- }
- ul {
-     list-style-type: none;
-     padding: 0;
- }
- li {
-     margin: 5px 0;
- }
- a {
-     text-decoration: none;
-     color: #007BFF;
- }
- a:hover {
-     text-decoration: underline;
- }
- ```
+/* styles.css */
+body {
+    background-image: url('imagens/Logo_3.png'); /* Caminho relativo à localização do arquivo CSS */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+}
