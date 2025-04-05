@@ -10,7 +10,7 @@
     <h1>Meus Contatos</h1>
     <p>Nome: Anna Carolina</p>
     <p>Email: seuemail@exemplo.com</p>
-    <p>Telefone: (21) 98147-3206</p>
+    <p>Telefone: (00) 00000-0000</p>
     <h2>Redes Sociais</h2>
     <ul>
         <li><a href="https://www.facebook.com/seuperfil">Facebook</a></li>
