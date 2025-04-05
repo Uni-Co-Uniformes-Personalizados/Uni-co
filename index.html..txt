@@ -22,4 +22,4 @@
  ```
  <img src="logo.png" alt="Minha Logo" style="width:200px;height:auto;">
  ```
-excluir arquivo
+delete this file
