@@ -56,3 +56,9 @@ footer {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+body {
+    background-image: url('images/fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center center; /* Centraliza a imagem */
+}
