@@ -7,6 +7,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    text-align: center; /* Centraliza o texto */
 }
 
 header {
@@ -19,6 +20,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center; /* Centraliza os itens do menu */
 }
 
 nav ul li {
@@ -58,6 +60,8 @@ form {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 5px;
+    display: inline-block; /* Centraliza o formulário */
+    text-align: left; /* Alinha o texto à esquerda dentro do formulário */
 }
 
 form label {
@@ -65,8 +69,8 @@ form label {
     margin-bottom: 5px;
 }
 
-form input, form textarea, form button {
-    width: 100%;
+form input, form textarea {
+    width: calc(100% - 22px); /* Ajusta a largura dos inputs e textarea */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -78,4 +82,11 @@ form button {
     background-color: #333;
     color: #fff;
     border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
 }
